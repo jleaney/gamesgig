@@ -1,0 +1,23 @@
+.column {
+  float: left;
+  width: 48%;
+  padding: 5px;
+}
+.column_full {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#musicLink{
+    text-align: right;
+    font-size: 18px;
+}
